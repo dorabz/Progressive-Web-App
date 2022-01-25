@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Snorlax PWA</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="/src/css/pwa.css">
+  <link rel="shortcut icon" href="#">
+</head>
+<body>
+<header class="main-header">
+  <h1>Welcome to Snorlax PWA</h1>
+</header>
+<article class="card" id="pwa">
+  <div class="card__image">
+    <img src="/src/images/snorlax.jpg" alt="Snorlax sleeps">
+  </div>
+  <div class="card__content">
+    <p class="center">Click on Snorlax so he shows you what he implemented</p>
+    <p>Click the button to get your coordinates.</p>
+
+    <button class="btn" onclick="getLocation()">Try It</button>
+
+    <p id="location"></p>
+
+    <p id="print">
+      <a href="javascript:window.print()">Take Snorlax home</a>
+    </p>
+    <noscript>
+      <p class="script">
+        To take Snorlax home by printing you need to enable Javascript in your browser!
+      </p>
+    </noscript>
+  </div>
+  <div class="card__details">
+    <p>Snorlax implemented:</p>
+    <ul>
+      <li>native api - geolocation</li>
+      <li>installable</li>
+      <li>caching strategy</li>
+      <li>offline mode</li>
+      <li>graceful degradation</li>
+    </ul>
+  </div>
+</article>
+<script src="/src/js/pwa.js"></script>
+</body>
+</html>
