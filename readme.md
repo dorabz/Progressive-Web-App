@@ -4,6 +4,8 @@ This is a repo of project made as a part of university course.
 
 FER - Advanced web development - 5. project
 
+Theme of project: PWA 
+
 application url on the firebase service: https://snorlax-web2.web.app 
 
 Implemented features:
