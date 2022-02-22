@@ -18,3 +18,4 @@ Implemented features:
 - push notification - no
 - demonstrate graceful degradation - yes, demonstrated by example with page printing,
 when javascript is not enabled then the instruction to turn it on because the print option does not work follows
+
