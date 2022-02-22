@@ -1,11 +1,18 @@
-url aplikacije na firebase servisu: https://snorlax-web2.web.app 
-Aplikacija ima implementirano:
-- native API : geolocation - da, davanjem pristupa vašoj lokaciji
-    i pritiskom na gumb "try it" vidjet će se vaš longitude i latitude
-- biti installable - da, aplikacija je dostupna za instaliranje (ponuđen prozor za instaliranje)
-- imati barem jednu cacheing strategiju - da, cache only on install , korištena za precache index page assetsa (source code: public/sw.js l: 1-16) i može se vidjeti u cache storage 
-- offline rad barem za app shell - da, provjeriti se može gašenjem interneta ili odabirom kvačice offline u dev tools
-- background sync - ne
-- push notifikacija - ne
-- demonstrirati gracefull degradation - da, demonstrirano na primjeru sa printanjem stranice, 
-kada javascript nije omogućen onda slijedi naputak da se uključi jer print opcija ne radi
+# Advanced-web-development---project-5
+
+This is a repo of project made as a part of university course.
+
+FER - Advanced web development - 5. project
+
+application url on the firebase service: https://snorlax-web2.web.app 
+
+Implemented features:
+- native API: geolocation - yes, by giving access to your location
+     and pressing the "try it" button will see your longitude and latitude
+- be installable - yes, the application is available for installation (installation window offered)
+- have at least one cacheing strategy - yes, cache only on install, used for precache index page assets (source code: public / sw.js l: 1-16) and can be seen in cache storage
+- offline work at least for the app shell - yes, it can be checked by turning off the internet or by selecting the offline checkbox in dev tools
+- background sync - no
+- push notification - no
+- demonstrate graceful degradation - yes, demonstrated by example with page printing,
+when javascript is not enabled then the instruction to turn it on because the print option does not work follows
