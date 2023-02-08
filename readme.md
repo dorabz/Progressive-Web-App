@@ -1,8 +1,6 @@
-# Advanced-web-development---project-5
+# Progressive Web Apps
 
 This is a repo of project made as a part of university course.
-
-FER - Advanced web development - 5. project
 
 Theme of project: PWA 
 
